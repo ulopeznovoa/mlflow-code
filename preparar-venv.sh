@@ -5,5 +5,6 @@ source mlflow-client/bin/activate
 
 python -m pip install --upgrade pip
 python -m pip install mlflow scikit-learn skops
+python -m pip install optuna
 
 deactivate
