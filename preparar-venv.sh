@@ -4,6 +4,6 @@ python3 -m venv mlflow-client
 source mlflow-client/bin/activate
 
 python -m pip install --upgrade pip
-python -m pip install mlflow scikit-learn
+python -m pip install mlflow scikit-learn skops
 
 deactivate
