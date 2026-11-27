@@ -35,6 +35,7 @@ def objective(trial):
     }
 
     # Cada trial se registra como un child run
+    # nested=True indica que este run debe crearse como parte del actualmente activo
     with mlflow.start_run(
         nested=True,
         run_name=f"trial-{trial.number}"
