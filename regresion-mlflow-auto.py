@@ -16,7 +16,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # Parametros del modelo
-params = {"max_iter": 100, "C": 0.1}
+params = {"max_iter": 100, "C": 0.01}
 
 # Activar MLflow para registro automático
 mlflow.sklearn.autolog(serialization_format="skops")
